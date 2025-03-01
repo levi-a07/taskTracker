@@ -29,3 +29,14 @@ Add Tasks by typing and clicking the "Add Task" button.
 Delete Tasks with one click.
 Save Tasks to a .txt file using the "Save to Device" button.
 TaskMaster makes task management effortless and keeps your progress safe. Try it today!
+
+
+## We Value Your Feedback!
+
+We are always looking for ways to improve TaskMaster. If you have any suggestions, feature requests, or encounter issues, feel free to contribute by opening an issue or submitting a pull request.
+
+### How You Can Contribute:
+- **Report a Bug**: If you find any issues, please let us know by creating an issue.
+- **Suggest a Feature**: Have an idea for a new feature? Share it with us!
+- **Contribute Code**: If you'd like to help with development, feel free to submit a pull request.
+
