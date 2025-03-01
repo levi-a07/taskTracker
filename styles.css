@@ -1,0 +1,85 @@
+body {
+    width: 250px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.container {
+    padding: 10px;
+}
+input {
+    width: 70%;
+}
+button {
+    padding: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.progress-container {
+    margin-top: 10px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+}
+.progress-ring__circle {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 0.3s;
+}
+#progressText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.task-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.task-item input[type="checkbox"] {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+}
+
+.task-item span {
+    flex: 1;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.todo-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.todo-header i {
+    font-size: 1.8rem;
+    color: #6f4e37;
+}
+#addTask{
+    font-size: 1.5rem
+}
+.task-input-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-header">
+            <i class="ti ti-coffee"></i>
+            <p>Todo List</p>
+        </div>
+        <div class="task-input-container">
+            <input type="text" id="taskInput" placeholder="Add a task...">
+            <i id="addTask" class="ti ti-plus"></i>
+        </div>
+        <ul id="taskList"></ul>
+        <div class="progress-container">
+            <svg class="progress-ring" width="120" height="120">
+                <circle class="progress-ring__circle" stroke="blue" stroke-width="8" fill="transparent" r="50" cx="60"
+                    cy="60" />
+            </svg>
+            <span id="progressText">0%</span>
+        </div>
+        <button id="saveToDevice">Save to Device</button>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/taskManager.js"></script>
+    <script src="js/fileManager.js"></script>
+    <script src="js/storage.js"></script>
+
+</body>
+
+</html>
