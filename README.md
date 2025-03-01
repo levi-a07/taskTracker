@@ -2,6 +2,8 @@
 Boost Your Productivity with TaskMaster!
 
 TaskMaster is the ultimate task management extension that helps you stay organized and efficient with ease.
+![image](https://github.com/user-attachments/assets/9656d22d-2a06-4287-936c-3a8757a89b90)
+![image](https://github.com/user-attachments/assets/3f035711-b508-4f15-9b7d-2c0bdab9fce9)
 
 **Key Features:**
 * Add Tasks Quickly: Just click "Add Task," type, and your task is added instantly!
