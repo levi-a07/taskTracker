@@ -11,5 +11,12 @@
     },
     "content_security_policy": {
         "extension_pages": "script-src 'self'; object-src 'none';"
-    }
+    },
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "f59b3d956759cb3652cf96e938b959c62140d392@levi.com",
+          "strict_min_version": "58.0"
+        }
+      }
+    
 }
