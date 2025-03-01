@@ -35,10 +35,9 @@ function createTaskElement(task, index) {
   const textSpan = document.createElement("span");
   textSpan.textContent = task.text;
 
-  const deleteBtn = document.createElement("button");
-  deleteBtn.className = "delete-btn";
+  const deleteBtn = document.createElement("i");
+  deleteBtn.className = "delete-btn ti ti-trash";
   deleteBtn.setAttribute("data-index", index);
-  deleteBtn.innerHTML = `<i class="ti ti-trash"></i>`;
 
   li.append(checkbox, textSpan, deleteBtn);
   return li;

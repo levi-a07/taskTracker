@@ -1,7 +1,6 @@
 body {
     width: 250px;
     font-family: Arial, sans-serif;
-    text-align: center;
 }
 .container {
     padding: 10px;
@@ -58,9 +57,11 @@ li {
 }
 
 .task-item span {
+    justify-content: flex-start;
     flex: 1;
     word-break: break-word;
     overflow-wrap: break-word;
+    font-size: 0.75rem ;
 }
 
 .todo-header {
@@ -82,4 +83,10 @@ li {
     display: flex;
     align-items: center;
     gap: 0.5rem; 
+}
+
+.ti-trash{
+    width: 18px;
+    height: 18px;
+    font-size: 1.5rem
 }

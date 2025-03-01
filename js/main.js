@@ -24,9 +24,6 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   taskList.addEventListener("click", (e) => {
     let target = e.target;
-    if (target.tagName === "I") {
-        target = target.parentElement;
-    }
     if (target.classList.contains("delete-btn")) {
       const taskIndex = target.getAttribute("data-index"); 
       deleteTask(Number(taskIndex)); 
